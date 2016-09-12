@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>lazysizesPrototype</title>
+    </head>
+    <body>
+        <noscript>
+            <img src="AalborgU640.jpg" />
+        </noscript>
+        <img sizes="(min-width: 1000px) 930px, 90vw"
+            data-srcset="AalborgU150.jpg 350w,
+                AalborgU240.jpg 650w,
+                AalborgU640.jpg 1050w,
+                AalborgU1600.jpg 2050w"
+            data-src="AalborgU640.jpg"
+            class="lazyload"
+            src="AalborgU240.jpg" />
+        <p>IMG_5675 by Mr Thinktank</p>
+        <script src="lazysizes.js" async=""></script>
+    </body>
+</html>
